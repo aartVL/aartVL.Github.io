@@ -61,5 +61,14 @@ p{
     justify-content: center;
     margin: 0 auto;
     margin-top: -26%;
-    margin-left: 60%x;
+    margin-left: 60%;
+}
+
+
+/* Media query voor grotere schermen */
+@media (min-width: 768px) {
+    .Image_Grinch {
+        width: 40vw; /* Grotere breedte voor tablets/desktops */
+        height: 40vw;
+    }
 }
