@@ -1,0 +1,55 @@
+.bigBox{
+    width: 100vw;
+    height: 140vw;
+    background-color: lightgray;
+}
+.header {
+    background-color: #e19327;
+    height: 13vw;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.tostiHolder{
+    width: 100vw;
+    height: 140vw;
+    background-color: #c34242;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tostiBox{
+    width: 40vw;
+    height: 40vw;
+    background-color: #e19327;
+    border: 1px solid black;
+    margin: 2vw;
+    border-radius: 10px;
+    text-align: center;
+}
+.pictureHolder{
+    width: 39vw;
+    height: 25vw;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 0.25vw 0.25vw;
+    border-radius: 10px;}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 13vw;
+    width: 25vw;
+    border: 1px solid black;
+    background-color: red;
+}
+h2{
+    font-size: 3.4vw;
+}
+h3{
+    font-size: 2.5vw;
+}
+

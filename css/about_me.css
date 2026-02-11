@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+#content {
+    display: flex;
+    flex: 8 1 0;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+#footer {
+    display: flex;
+    flex: 1 1 0;
+    background-color: #003580;
+}
+#header {
+    background-color: #003580;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    height: 80px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+#textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
+    flex: 7 6 0;
+    margin: 5vh 5vw;
+}
+#textbox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
+    flex: 7 6 0;
+    margin: 5vh 5vw;
+}
+#textbox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px;
+    flex: 7 6 0;
+    margin: 5vh 5vw;
+}
+h1 {
+    font-size: 3vw;
+    color: #003580;
+    margin-left: 10vw;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+.photo {
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    border-radius: 220px;
+    margin-top: 10vw;
+    background-image: url('../sintlucas/images/profile.jpg');
+    background-size: cover;
+}
+li{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+  h2 {
+    color: white;
+    margin: 0;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+a
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    color : white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+ a {
+    transition: color 0.3s ease;
+}
+
+ a:hover {
+    color: #ffcc00;
+}
+#menu {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url('../sintlucas/images/menu.png');
+    background-size: cover;
+}
+#yellow{
+    border-color: #ffcc00;
+}

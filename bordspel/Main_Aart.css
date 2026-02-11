@@ -12,7 +12,7 @@ header {
     background-color: #e63946;
     color: #fff;
     padding: 20px;
-    background-image: url('img_2.png');
+    background-image: url('../img_2.png');
 }
 
 h1 {
@@ -55,7 +55,7 @@ p{
 .Image_Grinch {
     width: 40vw;
     height: 40vw;
-    background-image: url('img_1.png');
+    background-image: url('../img_1.png');
     background-size: cover;
     background-position: center;
     display: flex;

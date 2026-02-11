@@ -1,0 +1,143 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: royalblue;
+    display: flex;
+    flex: 6 7 0;
+    animation: myAnimation 4s infinite;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#menubox {*/
+/*    width: 20vw;*/
+/*    height: 60vh;*/
+/*    background-color: white;*/
+/*    margin-left: -30vw;*/
+/*    border-radius: 80px;*/
+/*    position: fixed;*/
+/*    transition: transform 0.3s ease, opacity 0.3s ease;*/
+/*    transform: translateX(-100%);*/
+/*    opacity: 0;*/
+/*}*/
+
+#header {
+    background-color: #003580;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* spreads items */
+    padding: 0 50px;
+    flex: 1 1 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+a
+{
+    justify-content: space-evenly;
+    margin-right: 10px;
+    color : white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+#left {
+
+    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 0;
+    animation-name: myAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation: MyAnimation 3s infinite;
+
+
+}
+#right {
+    grid-area: header;
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    animation-name: MyAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation: myAnimation 3s infinite;
+}
+
+
+@keyframes myAnimation {
+    0%   { background-color: royalblue; }
+    50%  { background-color: mediumpurple; }
+    100% { background-color: royalblue; }
+}
+
+@keyframes MyAnimation {
+    0%   { background-color: mediumpurple; }
+    50%  { background-color: royalblue; }
+    100% { background-color: mediumpurple; }
+}
+
+
+h1 {
+    color: white;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+a{
+    gap: 50px;
+    margin-left: 100px;
+    transition: color 0.3s ease;
+
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+
+
+#menu {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    background-image: url('../sintlucas/images/menu.png');
+    background-size: cover;
+}
+
+#menu:hover {
+    transform: scale(1.1);
+}
+
+
+#menubox.active {
+    opacity: 1;
+}
